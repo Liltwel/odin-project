@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header ul,
+a {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 400px;
+
+    background-color: #1f2937;
+    gap: 10em;
+}
+
+.lead .text {
+    max-width: 400px;
+    margin-right: 64px;
+}
+
+.text .awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.text .sub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.lead button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bolder;
+
+    padding: 8px 30px;
+    margin-top: 10px;
+    border: 0;
+
+    border-radius: 8px;
+}
+
+.placeholder {
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 450px;
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxes .box {
+    max-width: 150px;
+    padding: 5px;
+    margin: 24px;
+
+    text-align: center;
+
+    font-size: initial;
+    font-weight: initial;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    border: 4px blue;
+    border-style: solid;
+    border-radius: 24px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    max-width: 800px;
+
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .thor-sig {
+    align-self: flex-end;
+
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 250px;
+}
+
+.sign-up .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    min-height: 115px;
+    min-width: 825px;
+    border-radius: 16px;
+
+    background-color: #3882f6;
+
+    color: #e5e7eb;
+}
+
+.sign-up .box .text .line-one {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sign-up .box .text .line-two {
+    font-size: 18px;
+}
+
+
+.sign-up .box .button {
+    padding: 6px 26px;
+    
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 8px;
+    
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        min-height: 75px;
+        background-color: #1f2937;
+        color: #e5e7eb;
+    
+    }
